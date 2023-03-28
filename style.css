@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background: rgb(36,0,33);
+background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(121,9,107,1) 0%, rgba(89,0,255,1) 100%);
+font-size: 30px;
+}
+
+ul{
+list-style: none;
+}
+
+.item2{
+    position: relative;
+}
+
+.subitem{
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    width: 170px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+
+    display: none;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 120px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.item2:hover .subitem{
+display: inline;
+}
+
+li:hover{
+    background-color: rgb(59, 22, 58);
+}
